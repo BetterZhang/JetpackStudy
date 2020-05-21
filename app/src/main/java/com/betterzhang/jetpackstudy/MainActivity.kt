@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.betterzhang.jetpackstudy.databinding.ActivityMainBinding
+import com.betterzhang.jetpackstudy.databinding.DataBindingActivity
 import com.betterzhang.jetpackstudy.viewbinding.ViewBindingActivity
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +22,10 @@ class MainActivity : AppCompatActivity() {
 
     fun gotoViewBindingActivity(view: View) {
         startActivity(Intent(this, ViewBindingActivity::class.java))
+    }
+
+    fun gotoDataBindingActivity(view: View) {
+        startActivity(Intent(this, DataBindingActivity::class.java))
     }
 
 }

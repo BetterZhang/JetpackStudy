@@ -2,4 +2,5 @@
     <string name="app_name">JetpackStudy</string>
 
     <string name="text_viewbinding">ViewBinding</string>
+    <string name="text_databinding">DataBinding</string>
 </resources>
