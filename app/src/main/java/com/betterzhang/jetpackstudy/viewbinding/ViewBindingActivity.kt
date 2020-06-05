@@ -18,7 +18,7 @@ class ViewBindingActivity : AppCompatActivity() {
         layoutTextTwoBinding = LayoutTextTwoBinding.bind(binding.root)
         setContentView(binding.root)
 
-        binding.textView.setText("Android ViewBinding")
+        binding.textView.text = "Android ViewBinding"
         binding.button.setOnClickListener {
             Toast.makeText(this, "Hello ViewBinding", Toast.LENGTH_SHORT).show()
         }
